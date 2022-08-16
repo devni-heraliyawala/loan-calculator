@@ -1,5 +1,5 @@
 
-# <..Project name> Backend
+# Loan Calculator Backend
 ## Description
 This project demonstrate a simple loan amount calculation application which was given as a SSE technical test at Eyepax IT Consulting (Pvt) Ltd(backend only).
 

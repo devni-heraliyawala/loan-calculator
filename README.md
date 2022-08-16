@@ -19,6 +19,13 @@ Technologies
 - .NET 6
 - Entity Framework Core
 
+## Pre-Requisites and setup
+- Loan calculator frontend can be found from [here](https://github.com/devni-heraliyawala/loan-calculator-frontend).
+- Loan calculator API backend can be found from [here](https://github.com/devni-heraliyawala/loan-calculator).
+- Default port `5197` is used for the backend.
+- Default port of `3001` is used for the frontend.
+- .NET core backend should be updated, configured and run successfully to start the frontend properly.
+
 ## Installation
 1. Clone the repo and install the dependencies.
 ```bash

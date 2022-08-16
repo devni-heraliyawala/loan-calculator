@@ -13,7 +13,7 @@ namespace LoanCalculator.Services.LoanService
             double monthlyPayment;
             var calculationType = loanInfo.CalculationType;
             var loanAmount = loanInfo.LoanAmount;
-            var interestRate = loanInfo.InterestRate;
+            var interestRate = loanInfo.InterestRate/100;
             var noOfPayments = loanInfo.NoOfPayments;
 
             LoanComponent component = new ConcreteComponent();

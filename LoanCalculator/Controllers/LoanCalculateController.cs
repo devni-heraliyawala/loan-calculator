@@ -19,7 +19,7 @@ namespace LoanCalculator.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ServiceResponse<double>>> CalculateMonthlyPayment(LoanInfo loanInfo)
+        public async Task<ActionResult<ServiceResponse<double>>> CalculateMonthlyPayment([FromBody]LoanInfo loanInfo)
         {
             var result = await _loanService.CalculateMonthlyPayment(loanInfo);
             return Ok(result);
